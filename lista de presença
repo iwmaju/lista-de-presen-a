@@ -1,0 +1,6 @@
+lista_presenca = []
+for nome in range (1,23):
+    nome = str (input("Digite o nome:"))
+    lista_presenca.append(nome)
+    if nome == "fim":
+        break
